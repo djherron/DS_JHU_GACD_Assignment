@@ -16,7 +16,7 @@ This R script runs the analysis that constitutes the bulk of the programming ass
 **run_analysis_2.R**
 This R script runs a secondary analysis, taking *tidy_data_1.txt* as input and producing a summary called *tidy_data_2.txt*.  The summary gives the mean of each feature for each combination of Subject and Activity (see *CodeBook.md*).  This script depends on and must be run after *run_analysis.R*.
 
-### Output  data sets
+### .txt files
 
 **codebook_features.txt**
 An ancillary output of *run_analysis.R* containing a mapping between feature column IDs and feature names.
@@ -27,7 +27,13 @@ The primary output produced by *run_analysis.R*.  (See the file *CodeBook.md* fo
 **tidy_data_2.txt**
 The output produced by *run_analysis_2.R*
 
-### Other files
+**Assignment_description.txt**
+A description of the programming assignment which motivated the development of the repository and its contents.
+
+### .md files
+
+**README.md**
+This file.
 
 **CodeBook.md**
 A description of *tidy_data_1.txt*
